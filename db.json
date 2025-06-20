@@ -1,0 +1,52 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Design Accessibility",
+      "duration": "5 hours",
+      "level": "Advanced"
+    },
+    {
+      "id": 2,
+      "name": "UX Research",
+      "duration": "6 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": 3,
+      "name": "Figma for Beginners",
+      "duration": "9 hours",
+      "level": "Beginner"
+    },
+    {
+      "id": 4,
+      "name": "HTML & CSS",
+      "duration": "9 hours",
+      "level": "Beginner"
+    },
+    {
+      "id": 5,
+      "name": "Java for Beginners",
+      "duration": "9 hours",
+      "level": "Beginner"
+    },
+    {
+      "id": 6,
+      "name": "Next JS",
+      "duration": "9 hours",
+      "level": "Advanced"
+    },
+    {
+      "id": 7,
+      "name": "Design Patterns",
+      "duration": "9 hours",
+      "level": "Advanced"
+    },
+    {
+      "id": 8,
+      "name": "Machine Learning Concepts",
+      "duration": "9 hours",
+      "level": "Advanced"
+    }
+  ]
+}
