@@ -1,4 +1,5 @@
 const API_URL = "https://q28s8f-8080.csb.app/courses"
+
 export const getCourse = async () => {
   const res = await fetch(API_URL, {
     method: "GET"

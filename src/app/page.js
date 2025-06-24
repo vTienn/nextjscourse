@@ -4,14 +4,15 @@ import Content from "../components/Content"
 import { useEffect, useState } from "react"
 
 import Head from "next/head"
+import { getCourse } from "../../utils/courseService"
 
 export default function Home() {
   const [courses, setCourses] = useState([])
 
   const fetchCourses = async () => {
     try {
-      const res = await fetch("http://localhost:4000/courses")
-      const data = await res.json()
+      const data = await getCourse()
+
       const sorted = data.sort((a, b) => b.id - a.id)
       setCourses(sorted)
     } catch (error) {
