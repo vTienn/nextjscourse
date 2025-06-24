@@ -13,6 +13,7 @@
     font-weight: bold;
     padding: 4px 8px;
     border-radius: 4px;
+    cursor: pointer;
   }
   .menu {
     display: flex;
@@ -60,8 +61,6 @@
 }
 
 body.dark {
-  background-color: #121212;
-  color: #ffffff;
 }
 
 body.dark .header {

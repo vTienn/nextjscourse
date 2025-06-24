@@ -36,11 +36,235 @@
       "description": "Learn core machine learning concepts including supervised learning, algorithms, and data preprocessing."
     },
     {
-      "id": "1750654495390",
-      "name": "a",
-      "duration": "â hours",
-      "level": "a",
-      "description": "a"
+      "id": "9",
+      "name": "React Basics",
+      "duration": "8 hours",
+      "level": "Beginner",
+      "description": "Learn the fundamentals of React including components, props, and state."
+    },
+    {
+      "id": "10",
+      "name": "HTML & CSS Mastery",
+      "duration": "7 hours",
+      "level": "Beginner",
+      "description": "Master the building blocks of web development with HTML and CSS."
+    },
+    {
+      "id": "11",
+      "name": "JavaScript ES6+",
+      "duration": "10 hours",
+      "level": "Intermediate",
+      "description": "Explore modern JavaScript features like arrow functions, promises, and async/await."
+    },
+    {
+      "id": "12",
+      "name": "Python for Data Science",
+      "duration": "12 hours",
+      "level": "Intermediate",
+      "description": "Use Python to manipulate data, visualize results, and apply statistical analysis."
+    },
+    {
+      "id": "13",
+      "name": "Docker Essentials",
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "description": "Understand containerization with Docker and learn to deploy your applications."
+    },
+    {
+      "id": "14",
+      "name": "Git & GitHub",
+      "duration": "5 hours",
+      "level": "Beginner",
+      "description": "Learn version control basics and how to collaborate on projects using GitHub."
+    },
+    {
+      "id": "15",
+      "name": "Node.js API Development",
+      "duration": "10 hours",
+      "level": "Intermediate",
+      "description": "Build RESTful APIs with Express.js and handle routing, middleware, and databases."
+    },
+    {
+      "id": "16",
+      "name": "TypeScript in Practice",
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "description": "Add type safety to your JavaScript code using TypeScript."
+    },
+    {
+      "id": "17",
+      "name": "Database Fundamentals",
+      "duration": "8 hours",
+      "level": "Beginner",
+      "description": "Understand relational databases, SQL queries, and data modeling."
+    },
+    {
+      "id": "18",
+      "name": "Responsive Web Design",
+      "duration": "6 hours",
+      "level": "Beginner",
+      "description": "Design websites that look great on any screen size using media queries and flexbox."
+    },
+    {
+      "id": "19",
+      "name": "Vue.js Crash Course",
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "description": "Build fast and interactive web applications using the Vue.js framework."
+    },
+    {
+      "id": "20",
+      "name": "Angular for Developers",
+      "duration": "11 hours",
+      "level": "Advanced",
+      "description": "Create enterprise-level applications using Angular modules, services, and routing."
+    },
+    {
+      "id": "21",
+      "name": "Advanced CSS Techniques",
+      "duration": "6 hours",
+      "level": "Advanced",
+      "description": "Enhance your UI with animations, grid layouts, and modern CSS tricks."
+    },
+    {
+      "id": "22",
+      "name": "REST API Design",
+      "duration": "8 hours",
+      "level": "Intermediate",
+      "description": "Design scalable and secure REST APIs with proper status codes and best practices."
+    },
+    {
+      "id": "23",
+      "name": "Kubernetes for Beginners",
+      "duration": "9 hours",
+      "level": "Intermediate",
+      "description": "Orchestrate containers using Kubernetes and manage your deployments effectively."
+    },
+    {
+      "id": "24",
+      "name": "SQL for Analysis",
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "description": "Query databases to extract insights and perform data analysis with SQL."
+    },
+    {
+      "id": "25",
+      "name": "AI Fundamentals",
+      "duration": "10 hours",
+      "level": "Advanced",
+      "description": "Understand artificial intelligence principles and their real-world applications."
+    },
+    {
+      "id": "26",
+      "name": "Cybersecurity Basics",
+      "duration": "6 hours",
+      "level": "Beginner",
+      "description": "Learn how to secure applications and protect against cyber threats."
+    },
+    {
+      "id": "27",
+      "name": "GraphQL with Apollo",
+      "duration": "8 hours",
+      "level": "Advanced",
+      "description": "Create and consume GraphQL APIs using Apollo Server and Client."
+    },
+    {
+      "id": "28",
+      "name": "Mobile App Design",
+      "duration": "9 hours",
+      "level": "Intermediate",
+      "description": "Design beautiful and user-friendly mobile interfaces with best UX practices."
+    },
+    {
+      "id": "29",
+      "name": "DevOps Foundations",
+      "duration": "10 hours",
+      "level": "Intermediate",
+      "description": "Learn DevOps culture, CI/CD pipelines, and automation tools like Jenkins."
+    },
+    {
+      "id": "30",
+      "name": "Web Accessibility",
+      "duration": "5 hours",
+      "level": "Beginner",
+      "description": "Make your websites accessible to all users including those with disabilities."
+    },
+    {
+      "id": "31",
+      "name": "Agile Project Management",
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "description": "Understand Agile methodologies and how to manage software projects effectively."
+    },
+    {
+      "id": "32",
+      "name": "Clean Code Principles",
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "description": "Learn how to write clean, readable, and maintainable code using proven principles and best practices."
+    },
+    {
+      "id": "33",
+      "name": "Flutter Development",
+      "duration": "12 hours",
+      "level": "Intermediate",
+      "description": "Build beautiful cross-platform mobile apps using Flutter and Dart."
+    },
+    {
+      "id": "34",
+      "name": "Cloud Computing Basics",
+      "duration": "6 hours",
+      "level": "Beginner",
+      "description": "Understand cloud service models, deployment models, and popular platforms like AWS and Azure."
+    },
+    {
+      "id": "35",
+      "name": "Intro to Blockchain",
+      "duration": "8 hours",
+      "level": "Beginner",
+      "description": "Learn the fundamentals of blockchain technology and how decentralized systems work."
+    },
+    {
+      "id": "36",
+      "name": "Data Structures & Algorithms",
+      "duration": "10 hours",
+      "level": "Advanced",
+      "description": "Master core computer science concepts to improve your coding and problem-solving skills."
+    },
+    {
+      "id": "37",
+      "name": "SASS & SCSS in Depth",
+      "duration": "5 hours",
+      "level": "Intermediate",
+      "description": "Enhance your CSS workflow using SASS features like variables, nesting, and mixins."
+    },
+    {
+      "id": "38",
+      "name": "Web Performance Optimization",
+      "duration": "6 hours",
+      "level": "Advanced",
+      "description": "Improve website speed and efficiency through optimization techniques and tools."
+    },
+    {
+      "id": "39",
+      "name": "Jest Testing for React",
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "description": "Write unit and integration tests for your React components using Jest and React Testing Library."
+    },
+    {
+      "id": "40",
+      "name": "Introduction to SEO",
+      "duration": "4 hours",
+      "level": "Beginner",
+      "description": "Learn how search engines work and how to improve website visibility through SEO."
+    },
+    {
+      "id": "41",
+      "name": "WebSockets & Real-time Apps",
+      "duration": "9 hours",
+      "level": "Advanced",
+      "description": "Build real-time web applications using WebSockets and technologies like Socket.IO."
     }
   ]
 }

@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link"
-import { Table, Space, Button, Modal, Form, Input, message, Select } from "antd"
+import { Table, Space, Button, Modal, Form, Input, message, Select, Popconfirm } from "antd"
 import { BookOutlined, ReadOutlined, PlusOutlined, CloseOutlined } from "@ant-design/icons"
 import { useState, useEffect, useRef } from "react"
 import { addCourse, deleteCourse, updateCourse } from "../../utils/courseService"
@@ -15,19 +15,13 @@ const Content = ({ data = [], refreshData }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
   const [editId, setEditId] = useState(null)
-  const [viewID, setViewID] = useState()
   const drawerRef = useRef()
 
   const handleDeleteCourse = async (id) => {
     try {
-      const valueDelete = window.confirm("Do you want to delete this course ?")
-      if (valueDelete) {
-        await deleteCourse(id)
-        message.success("Deleted!")
-        refreshData()
-      } else {
-        return
-      }
+      await deleteCourse(id)
+      message.success("Deleted!")
+      refreshData()
     } catch (err) {
       message.error("Failed to delete!")
     }
@@ -101,9 +95,6 @@ const Content = ({ data = [], refreshData }) => {
       document.removeEventListener("mousedown", handleClickOutside)
     }
   }, [isDrawerOpen])
-  const handleClickView = (id) => {
-    setViewID(id)
-  }
 
   const columns = [
     {
@@ -128,12 +119,16 @@ const Content = ({ data = [], refreshData }) => {
         <Space size='middle'>
           <Link href={`/viewcourse?id=${record.id}`}> View </Link>{" "}
           <a style={{ color: "green" }} onClick={() => handleEdit(record)}>
-            {" "}
             Update{" "}
           </a>{" "}
-          <a style={{ color: "red" }} onClick={() => handleDeleteCourse(record.id)}>
-            Delete{" "}
-          </a>{" "}
+          <Popconfirm
+            title='Are you sure to delete this course?'
+            onConfirm={() => handleDeleteCourse(record.id)}
+            okText='Yes'
+            cancelText='No'
+          >
+            <a style={{ color: "red" }}> Delete </a>{" "}
+          </Popconfirm>{" "}
           <a>
             <PlusOutlined onClick={() => handleSave(record)} />{" "}
           </a>{" "}
@@ -245,7 +240,7 @@ const Content = ({ data = [], refreshData }) => {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <h3 style={{ margin: 0 }}>
             <BookOutlined style={{ marginRight: 8 }} />
-            Saved Courses{" "}
+            Saved Courses
           </h3>{" "}
           <CloseOutlined
             onClick={() => setIsDrawerOpen(false)}
@@ -264,7 +259,8 @@ const Content = ({ data = [], refreshData }) => {
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
-                  marginBottom: "10px"
+                  marginBottom: "10px",
+                  marginRight: "10px"
                 }}
               >
                 <span>

@@ -24,17 +24,17 @@ const items = [
     label: <Link href='/chart'> Statistic Course </Link>
   },
   {
-    key: "/facebook",
+    key: "/",
     icon: <AppstoreAddOutlined />,
     label: <Link href='/facebook'> Services </Link>
   },
   {
-    key: "/work",
+    key: "/",
     icon: <PictureOutlined />,
     label: <Link href='#'> My work </Link>
   },
   {
-    key: "/insta",
+    key: "/",
     icon: <CommentOutlined />,
     label: <Link href='/insta'> Testimonials </Link>
   }
