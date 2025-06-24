@@ -1,52 +1,46 @@
 {
   "courses": [
     {
-      "id": 1,
-      "name": "Design Accessibility",
-      "duration": "5 hours",
-      "level": "Advanced"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "UX Research",
       "duration": "6 hours",
-      "level": "Intermediate"
+      "level": "Intermediate",
+      "description": "Explore user research methods to understand user needs and improve product usability."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Figma for Beginners",
       "duration": "9 hours",
-      "level": "Beginner"
+      "level": "Beginner",
+      "description": "Get started with Figma and learn the basics of UI design and prototyping."
     },
     {
-      "id": 4,
-      "name": "HTML & CSS",
-      "duration": "9 hours",
-      "level": "Beginner"
-    },
-    {
-      "id": 5,
-      "name": "Java for Beginners",
-      "duration": "9 hours",
-      "level": "Beginner"
-    },
-    {
-      "id": 6,
+      "id": "6",
       "name": "Next JS",
       "duration": "9 hours",
-      "level": "Advanced"
+      "level": "Advanced",
+      "description": "Master server-side rendering, routing, and API integrations using the Next.js framework."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Design Patterns",
       "duration": "9 hours",
-      "level": "Advanced"
+      "level": "Advanced",
+      "description": "Understand common software design patterns to write better, reusable, and maintainable code."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Machine Learning Concepts",
       "duration": "9 hours",
-      "level": "Advanced"
+      "level": "Advanced",
+      "description": "Learn core machine learning concepts including supervised learning, algorithms, and data preprocessing."
+    },
+    {
+      "id": "1750654495390",
+      "name": "a",
+      "duration": "â hours",
+      "level": "a",
+      "description": "a"
     }
   ]
 }

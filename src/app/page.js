@@ -1,24 +1,51 @@
-"use client";
-import Image from "next/image";
-import styles from "./page.module.css";
-import Link from "next/link";
-import Content from "../components/Content";
-import { useEffect, useState } from "react";
-import Sidebar from "@/components/Sidebar";
+"use client"
+
+import Content from "../components/Content"
+import { useEffect, useState } from "react"
+
+import Head from "next/head"
+
 export default function Home() {
-  const [courses, setCourses] = useState([]);
+  const [courses, setCourses] = useState([])
+
+  const fetchCourses = async () => {
+    try {
+      const res = await fetch("http://localhost:4000/courses")
+      const data = await res.json()
+      const sorted = data.sort((a, b) => b.id - a.id)
+      setCourses(sorted)
+    } catch (error) {
+      console.error("Fetch failed", error)
+    }
+  }
+
   useEffect(() => {
-    const FetchApi = async () => {
-      const result = await fetch("http://localhost:4000/courses");
-      const data = await result.json();
-      console.log(data);
-      setCourses(data);
-    };
-    FetchApi();
-  }, []);
+    fetchCourses()
+  }, [])
+
   return (
     <>
-      <Content data={courses} />{" "}
+      <Head>
+        <title> Khóa học lập trình | Nền tảng học online chất lượng </title>{" "}
+        <meta
+          name='description'
+          content='Khám phá các khóa học lập trình mới nhất, học online dễ hiểu, thực tế và hiệu quả.'
+        />
+        <meta name='robots' content='index, follow' />
+        <meta
+          name='keywords'
+          content='khóa học lập trình, học online, khóa học web, JavaScript, React, Next.js'
+        />
+        <meta property='og:title' content='Khóa học lập trình online chất lượng cao' />
+        <meta
+          property='og:description'
+          content='Danh sách khóa học thực chiến, cập nhật liên tục cho người mới bắt đầu và nâng cao.'
+        />
+        <meta property='og:image' content='' />
+        <meta property='og:url' content='' />
+        <meta property='og:type' content='website' />
+      </Head>{" "}
+      <Content data={courses} refreshData={fetchCourses} />{" "}
     </>
-  );
+  )
 }

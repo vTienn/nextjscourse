@@ -1,52 +1,83 @@
-"use client";
+"use client"
 
-import { Menu } from "antd";
-import Link from "next/link";
+import { Menu, Drawer, Button } from "antd"
+import Link from "next/link"
 import {
   HomeOutlined,
   UserOutlined,
   AppstoreAddOutlined,
   PictureOutlined,
   CommentOutlined,
-} from "@ant-design/icons";
+  MenuOutlined
+} from "@ant-design/icons"
+import { useState } from "react"
 
 const items = [
   {
     key: "/",
     icon: <HomeOutlined />,
-    label: <Link href="/"> Home </Link>,
+    label: <Link href='/'> Home </Link>
   },
   {
-    key: "/about",
+    key: "/chart",
     icon: <UserOutlined />,
-    label: <Link href="#"> About me </Link>,
+    label: <Link href='/chart'> Statistic Course </Link>
   },
   {
     key: "/facebook",
     icon: <AppstoreAddOutlined />,
-    label: <Link href="/facebook"> Services </Link>,
+    label: <Link href='/facebook'> Services </Link>
   },
   {
     key: "/work",
     icon: <PictureOutlined />,
-    label: <Link href="#"> My work </Link>,
+    label: <Link href='#'> My work </Link>
   },
   {
     key: "/insta",
     icon: <CommentOutlined />,
-    label: <Link href="/insta"> Testimonials </Link>,
-  },
-];
+    label: <Link href='/insta'> Testimonials </Link>
+  }
+]
 
 const Sidebar = () => {
-  return (
-    <Menu
-      mode="inline"
-      defaultSelectedKeys={["/"]}
-      style={{ height: "100%", borderRight: 0 }}
-      items={items}
-    />
-  );
-};
+  const [visible, setVisible] = useState(false)
 
-export default Sidebar;
+  return (
+    <>
+      <div className='sidebar-desktop'>
+        <Menu
+          mode='inline'
+          defaultSelectedKeys={["/"]}
+          style={{ height: "100%", borderRight: 0 }}
+          items={items}
+        />{" "}
+      </div>{" "}
+      <div className='sidebar-mobile'>
+        <Button
+          type='text'
+          icon={<MenuOutlined />}
+          onClick={() => setVisible(true)}
+          style={{ fontSize: 24 }}
+        />{" "}
+        <Drawer
+          title='Menu'
+          placement='left'
+          onClose={() => setVisible(false)}
+          open={visible}
+          bodyStyle={{ padding: 0 }}
+        >
+          <Menu
+            mode='inline'
+            defaultSelectedKeys={["/"]}
+            style={{ height: "100%" }}
+            items={items}
+            onClick={() => setVisible(false)}
+          />{" "}
+        </Drawer>{" "}
+      </div>{" "}
+    </>
+  )
+}
+
+export default Sidebar

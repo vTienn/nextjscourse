@@ -10,10 +10,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/plots": "^2.5.0",
     "antd": "^5.26.1",
     "next": "15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-calendar": "^6.0.0",
+    "react-dom": "^19.0.0",
+    "react-gauge-chart": "^0.5.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
