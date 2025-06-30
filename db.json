@@ -1,270 +1,459 @@
 {
-  "courses": [
-    {
-      "id": "2",
-      "name": "UX Research",
-      "duration": "6 hours",
-      "level": "Intermediate",
-      "description": "Explore user research methods to understand user needs and improve product usability."
-    },
-    {
-      "id": "3",
-      "name": "Figma for Beginners",
-      "duration": "9 hours",
-      "level": "Beginner",
-      "description": "Get started with Figma and learn the basics of UI design and prototyping."
-    },
-    {
-      "id": "6",
-      "name": "Next JS",
-      "duration": "9 hours",
-      "level": "Advanced",
-      "description": "Master server-side rendering, routing, and API integrations using the Next.js framework."
-    },
-    {
-      "id": "7",
-      "name": "Design Patterns",
-      "duration": "9 hours",
-      "level": "Advanced",
-      "description": "Understand common software design patterns to write better, reusable, and maintainable code."
-    },
-    {
-      "id": "8",
-      "name": "Machine Learning Concepts",
-      "duration": "9 hours",
-      "level": "Advanced",
-      "description": "Learn core machine learning concepts including supervised learning, algorithms, and data preprocessing."
-    },
-    {
-      "id": "9",
-      "name": "React Basics",
-      "duration": "8 hours",
-      "level": "Beginner",
-      "description": "Learn the fundamentals of React including components, props, and state."
-    },
-    {
-      "id": "10",
-      "name": "HTML & CSS Mastery",
-      "duration": "7 hours",
-      "level": "Beginner",
-      "description": "Master the building blocks of web development with HTML and CSS."
-    },
-    {
-      "id": "11",
-      "name": "JavaScript ES6+",
-      "duration": "10 hours",
-      "level": "Intermediate",
-      "description": "Explore modern JavaScript features like arrow functions, promises, and async/await."
-    },
-    {
-      "id": "12",
-      "name": "Python for Data Science",
-      "duration": "12 hours",
-      "level": "Intermediate",
-      "description": "Use Python to manipulate data, visualize results, and apply statistical analysis."
-    },
-    {
-      "id": "13",
-      "name": "Docker Essentials",
-      "duration": "6 hours",
-      "level": "Intermediate",
-      "description": "Understand containerization with Docker and learn to deploy your applications."
-    },
-    {
-      "id": "14",
-      "name": "Git & GitHub",
-      "duration": "5 hours",
-      "level": "Beginner",
-      "description": "Learn version control basics and how to collaborate on projects using GitHub."
-    },
-    {
-      "id": "15",
-      "name": "Node.js API Development",
-      "duration": "10 hours",
-      "level": "Intermediate",
-      "description": "Build RESTful APIs with Express.js and handle routing, middleware, and databases."
-    },
-    {
-      "id": "16",
-      "name": "TypeScript in Practice",
-      "duration": "7 hours",
-      "level": "Intermediate",
-      "description": "Add type safety to your JavaScript code using TypeScript."
-    },
-    {
-      "id": "17",
-      "name": "Database Fundamentals",
-      "duration": "8 hours",
-      "level": "Beginner",
-      "description": "Understand relational databases, SQL queries, and data modeling."
-    },
-    {
-      "id": "18",
-      "name": "Responsive Web Design",
-      "duration": "6 hours",
-      "level": "Beginner",
-      "description": "Design websites that look great on any screen size using media queries and flexbox."
-    },
-    {
-      "id": "19",
-      "name": "Vue.js Crash Course",
-      "duration": "7 hours",
-      "level": "Intermediate",
-      "description": "Build fast and interactive web applications using the Vue.js framework."
-    },
-    {
-      "id": "20",
-      "name": "Angular for Developers",
-      "duration": "11 hours",
-      "level": "Advanced",
-      "description": "Create enterprise-level applications using Angular modules, services, and routing."
-    },
-    {
-      "id": "21",
-      "name": "Advanced CSS Techniques",
-      "duration": "6 hours",
-      "level": "Advanced",
-      "description": "Enhance your UI with animations, grid layouts, and modern CSS tricks."
-    },
-    {
-      "id": "22",
-      "name": "REST API Design",
-      "duration": "8 hours",
-      "level": "Intermediate",
-      "description": "Design scalable and secure REST APIs with proper status codes and best practices."
-    },
-    {
-      "id": "23",
-      "name": "Kubernetes for Beginners",
-      "duration": "9 hours",
-      "level": "Intermediate",
-      "description": "Orchestrate containers using Kubernetes and manage your deployments effectively."
-    },
-    {
-      "id": "24",
-      "name": "SQL for Analysis",
-      "duration": "7 hours",
-      "level": "Intermediate",
-      "description": "Query databases to extract insights and perform data analysis with SQL."
-    },
-    {
-      "id": "25",
-      "name": "AI Fundamentals",
-      "duration": "10 hours",
-      "level": "Advanced",
-      "description": "Understand artificial intelligence principles and their real-world applications."
-    },
-    {
-      "id": "26",
-      "name": "Cybersecurity Basics",
-      "duration": "6 hours",
-      "level": "Beginner",
-      "description": "Learn how to secure applications and protect against cyber threats."
-    },
-    {
-      "id": "27",
-      "name": "GraphQL with Apollo",
-      "duration": "8 hours",
-      "level": "Advanced",
-      "description": "Create and consume GraphQL APIs using Apollo Server and Client."
-    },
-    {
-      "id": "28",
-      "name": "Mobile App Design",
-      "duration": "9 hours",
-      "level": "Intermediate",
-      "description": "Design beautiful and user-friendly mobile interfaces with best UX practices."
-    },
-    {
-      "id": "29",
-      "name": "DevOps Foundations",
-      "duration": "10 hours",
-      "level": "Intermediate",
-      "description": "Learn DevOps culture, CI/CD pipelines, and automation tools like Jenkins."
-    },
-    {
-      "id": "30",
-      "name": "Web Accessibility",
-      "duration": "5 hours",
-      "level": "Beginner",
-      "description": "Make your websites accessible to all users including those with disabilities."
-    },
-    {
-      "id": "31",
-      "name": "Agile Project Management",
-      "duration": "6 hours",
-      "level": "Intermediate",
-      "description": "Understand Agile methodologies and how to manage software projects effectively."
-    },
-    {
-      "id": "32",
-      "name": "Clean Code Principles",
-      "duration": "7 hours",
-      "level": "Intermediate",
-      "description": "Learn how to write clean, readable, and maintainable code using proven principles and best practices."
-    },
-    {
-      "id": "33",
-      "name": "Flutter Development",
-      "duration": "12 hours",
-      "level": "Intermediate",
-      "description": "Build beautiful cross-platform mobile apps using Flutter and Dart."
-    },
-    {
-      "id": "34",
-      "name": "Cloud Computing Basics",
-      "duration": "6 hours",
-      "level": "Beginner",
-      "description": "Understand cloud service models, deployment models, and popular platforms like AWS and Azure."
-    },
-    {
-      "id": "35",
-      "name": "Intro to Blockchain",
-      "duration": "8 hours",
-      "level": "Beginner",
-      "description": "Learn the fundamentals of blockchain technology and how decentralized systems work."
-    },
-    {
-      "id": "36",
-      "name": "Data Structures & Algorithms",
-      "duration": "10 hours",
-      "level": "Advanced",
-      "description": "Master core computer science concepts to improve your coding and problem-solving skills."
-    },
-    {
-      "id": "37",
-      "name": "SASS & SCSS in Depth",
-      "duration": "5 hours",
-      "level": "Intermediate",
-      "description": "Enhance your CSS workflow using SASS features like variables, nesting, and mixins."
-    },
-    {
-      "id": "38",
-      "name": "Web Performance Optimization",
-      "duration": "6 hours",
-      "level": "Advanced",
-      "description": "Improve website speed and efficiency through optimization techniques and tools."
-    },
-    {
-      "id": "39",
-      "name": "Jest Testing for React",
-      "duration": "7 hours",
-      "level": "Intermediate",
-      "description": "Write unit and integration tests for your React components using Jest and React Testing Library."
-    },
-    {
-      "id": "40",
-      "name": "Introduction to SEO",
-      "duration": "4 hours",
-      "level": "Beginner",
-      "description": "Learn how search engines work and how to improve website visibility through SEO."
-    },
-    {
-      "id": "41",
-      "name": "WebSockets & Real-time Apps",
-      "duration": "9 hours",
-      "level": "Advanced",
-      "description": "Build real-time web applications using WebSockets and technologies like Socket.IO."
-    }
-  ]
+    "courses": [{
+            "id": "2",
+            "name": "UX Research1",
+            "duration": "6 hours",
+            "level": "Intermediate",
+            "description": "Explore user research methods to understand user needs and improve product usability.",
+            "videoUrl": "http://www.youtube.com/watch?v=l4wx_IbUULw",
+            "imageUrl": "https://i.ytimg.com/vi/bHbdNNPYP7U/hqdefault.jpg",
+            "startdate": "2024-07-01",
+            "studentcount": 150,
+            "price": 387
+        },
+        {
+            "id": "3",
+            "name": "Figma for Beginners",
+            "duration": "9 hours",
+            "level": "Beginner",
+            "description": "Get started with Figma and learn the basics of UI design and prototyping.",
+            "videoUrl": "http://www.youtube.com/watch?v=jQ1sfKIl50E",
+            "imageUrl": "https://i.ytimg.com/vi/jQ1sfKIl50E/hqdefault.jpg",
+            "startdate": "2024-08-15",
+            "studentcount": 200,
+            "price": 254
+        },
+        {
+            "id": "6",
+            "name": "Next JS",
+            "duration": "9 hours",
+            "level": "Advanced",
+            "description": "Master server-side rendering, routing, and API integrations using the Next.js framework.",
+            "videoUrl": "http://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+            "imageUrl": "https://i.ytimg.com/vi/Zq5fmkH0T78/hqdefault.jpg",
+            "startdate": "2024-09-01",
+            "studentcount": 80,
+            "price": 105
+        },
+        {
+            "id": "7",
+            "name": "Design Patterns",
+            "duration": "9 hours",
+            "level": "Advanced",
+            "description": "Understand common software design patterns to write better, reusable, and maintainable code.",
+            "videoUrl": "http://www.youtube.com/watch?v=tv-_1er1mWI",
+            "imageUrl": "https://www.sipexe.com/assets/courses/Design_Patterns.jpg",
+            "startdate": "2024-07-10",
+            "studentcount": 90,
+            "price": 412
+        },
+        {
+            "id": "8",
+            "name": "Machine Learning Concepts",
+            "duration": "9 hours",
+            "level": "Advanced",
+            "description": "Learn core machine learning concepts including supervised learning, algorithms, and data preprocessing.",
+            "videoUrl": "http://www.youtube.com/watch?v=PeMlggyqz0Y",
+            "imageUrl": "https://images.shiksha.com/mediadata/images/articles/1699508541phpKGjrWM.jpeg",
+            "startdate": "2024-08-01",
+            "studentcount": 120,
+            "price": 199
+        },
+        {
+            "id": "9",
+            "name": "React Basics",
+            "duration": "8 hours",
+            "level": "Beginner",
+            "description": "Learn the fundamentals of React including components, props, and state.",
+            "videoUrl": "http://www.youtube.com/watch?v=SqcY0GlETPk",
+            "imageUrl": "https://i.ytimg.com/vi/bMknfKXIFA8/hqdefault.jpg",
+            "startdate": "2024-07-20",
+            "studentcount": 250,
+            "price": 315
+        },
+        {
+            "id": "10",
+            "name": "HTML & CSS Mastery",
+            "duration": "7 hours",
+            "level": "Beginner",
+            "description": "Master the building blocks of web development with HTML and CSS.",
+            "videoUrl": "http://www.youtube.com/watch?v=QRrPE9aj3wI",
+            "imageUrl": "https://i.ytimg.com/vi/G3e-cpL7ofc/hqdefault.jpg",
+            "startdate": "2024-09-10",
+            "studentcount": 300,
+            "price": 178
+        },
+        {
+            "id": "11",
+            "name": "JavaScript ES6+",
+            "duration": "10 hours",
+            "level": "Intermediate",
+            "description": "Explore modern JavaScript features like arrow functions, promises, and async/await.",
+            "videoUrl": "http://www.youtube.com/watch?v=NCwa_xi0Uuc",
+            "imageUrl": "https://i.ytimg.com/vi/1WCA0W5tI08/maxresdefault.jpg",
+            "startdate": "2024-07-05",
+            "studentcount": 180,
+            "price": 450
+        },
+        {
+            "id": "12",
+            "name": "Python for Data Science",
+            "duration": "12 hours",
+            "level": "Intermediate",
+            "description": "Use Python to manipulate data, visualize results, and apply statistical analysis.",
+            "videoUrl": "http://www.youtube.com/watch?v=LHBE6Q9XlzI",
+            "imageUrl": "https://img-c.udemycdn.com/course/750x422/2314160_8d61_6.jpg",
+            "startdate": "2024-08-20",
+            "studentcount": 160,
+            "price": 280
+        },
+        {
+            "id": "13",
+            "name": "Docker Essentials",
+            "duration": "6 hours",
+            "level": "Intermediate",
+            "description": "Understand containerization with Docker and learn to deploy your applications.",
+            "videoUrl": "http://www.youtube.com/watch?v=pg19Z8LL06w",
+            "imageUrl": "https://i.ytimg.com/vi/pg19Z8LL06w/hqdefault.jpg",
+            "startdate": "2024-09-05",
+            "studentcount": 110,
+            "price": 95
+        },
+        {
+            "id": "14",
+            "name": "Git & GitHub",
+            "duration": "5 hours",
+            "level": "Beginner",
+            "description": "Learn version control basics and how to collaborate on projects using GitHub.",
+            "videoUrl": "http://www.youtube.com/watch?v=tRZGeaHPoaw",
+            "imageUrl": "https://i.ytimg.com/vi/tRZGeaHPoaw/hqdefault.jpg",
+            "startdate": "2024-07-25",
+            "studentcount": 220,
+            "price": 200
+        },
+        {
+            "id": "15",
+            "name": "Node.js API Development",
+            "duration": "10 hours",
+            "level": "Intermediate",
+            "description": "Build RESTful APIs with Express.js and handle routing, middleware, and databases.",
+            "videoUrl": "http://www.youtube.com/watch?v=Oe421EPjeBE",
+            "imageUrl": "https://i.ytimg.com/vi/Oe421EPjeBE/hqdefault.jpg",
+            "startdate": "2024-08-08",
+            "studentcount": 130,
+            "price": 340
+        },
+        {
+            "id": "16",
+            "name": "TypeScript in Practice",
+            "duration": "7 hours",
+            "level": "Intermediate",
+            "description": "Add type safety to your JavaScript code using TypeScript.",
+            "videoUrl": "http://www.youtube.com/watch?v=d56mG7DezGs",
+            "imageUrl": "https://i.ytimg.com/vi/Zq5fmkH0T78/hqdefault.jpg",
+            "startdate": "2024-09-15",
+            "studentcount": 140,
+            "price": 165
+        },
+        {
+            "id": "17",
+            "name": "Database Fundamentals",
+            "duration": "8 hours",
+            "level": "Beginner",
+            "description": "Understand relational databases, SQL queries, and data modeling.",
+            "videoUrl": "http://www.youtube.com/watch?v=wR0jg0eQsZA",
+            "imageUrl": "https://i.ytimg.com/vi/wR0jg0eQsZA/hqdefault.jpg",
+            "startdate": "2024-07-12",
+            "studentcount": 190,
+            "price": 225
+        },
+        {
+            "id": "18",
+            "name": "Responsive Web Design",
+            "duration": "6 hours",
+            "level": "Beginner",
+            "description": "Design websites that look great on any screen size using media queries and flexbox.",
+            "videoUrl": "http://www.youtube.com/watch?v=x4u1yp3Msao",
+            "imageUrl": "https://i.ytimg.com/vi/x4u1yp3Msao/hqdefault.jpg",
+            "startdate": "2024-08-01",
+            "studentcount": 210,
+            "price": 110
+        },
+        {
+            "id": "19",
+            "name": "Vue.js Crash Course",
+            "duration": "7 hours",
+            "level": "Intermediate",
+            "description": "Build fast and interactive web applications using the Vue.js framework.",
+            "videoUrl": "http://www.youtube.com/watch?v=VeNfHj6MhgA",
+            "imageUrl": "https://i.ytimg.com/vi/VeNfHj6MhgA/hqdefault.jpg",
+            "startdate": "2024-09-20",
+            "studentcount": 100,
+            "price": 270
+        },
+        {
+            "id": "20",
+            "name": "Angular for Developers",
+            "duration": "11 hours",
+            "level": "Advanced",
+            "description": "Create enterprise-level applications using Angular modules, services, and routing.",
+            "videoUrl": "http://www.youtube.com/watch?v=oUmVFHlwZsI",
+            "imageUrl": "https://i.ytimg.com/vi/oUmVFHlwZsI/hqdefault.jpg",
+            "startdate": "2024-07-18",
+            "studentcount": 70,
+            "price": 490
+        },
+        {
+            "id": "21",
+            "name": "Advanced CSS Techniques",
+            "duration": "6 hours",
+            "level": "Advanced",
+            "description": "Enhance your UI with animations, grid layouts, and modern CSS tricks.",
+            "videoUrl": "http://www.youtube.com/watch?v=44FTAS-qT8Q",
+            "imageUrl": "https://i.ytimg.com/vi/44FTAS-qT8Q/hqdefault.jpg",
+            "startdate": "2024-08-25",
+            "studentcount": 60,
+            "price": 185
+        },
+        {
+            "id": "22",
+            "name": "REST API Design",
+            "duration": "8 hours",
+            "level": "Intermediate",
+            "description": "Design scalable and secure REST APIs with proper status codes and best practices.",
+            "videoUrl": "http://www.youtube.com/watch?v=_gQaygjm_hg",
+            "imageUrl": "https://i.ytimg.com/vi/_gQaygjm_hg/hqdefault.jpg",
+            "startdate": "2024-09-01",
+            "studentcount": 125,
+            "price": 300
+        },
+        {
+            "id": "23",
+            "name": "Kubernetes for Beginners",
+            "duration": "9 hours",
+            "level": "Intermediate",
+            "description": "Orchestrate containers using Kubernetes and manage your deployments effectively.",
+            "videoUrl": "http://www.youtube.com/watch?v=X48VuDVv0do",
+            "imageUrl": "https://i.ytimg.com/vi/X48VuDVv0do/hqdefault.jpg",
+            "startdate": "2024-07-01",
+            "studentcount": 95,
+            "price": 420
+        },
+        {
+            "id": "24",
+            "name": "SQL for Analysis",
+            "duration": "7 hours",
+            "level": "Intermediate",
+            "description": "Query databases to extract insights and perform data analysis with SQL.",
+            "videoUrl": "http://www.youtube.com/watch?v=kbKty5ZVKMY",
+            "imageUrl": "https://i.ytimg.com/vi/kbKty5ZVKMY/hqdefault.jpg",
+            "startdate": "2024-08-10",
+            "studentcount": 170,
+            "price": 140
+        },
+        {
+            "id": "25",
+            "name": "AI Fundamentals",
+            "duration": "10 hours",
+            "level": "Advanced",
+            "description": "Understand artificial intelligence principles and their real-world applications.",
+            "videoUrl": "http://www.youtube.com/watch?v=Yq0QkCxoTHM",
+            "imageUrl": "https://i.ytimg.com/vi/Yq0QkCxoTHM/hqdefault.jpg",
+            "startdate": "2024-09-01",
+            "studentcount": 85,
+            "price": 475
+        },
+        {
+            "id": "26",
+            "name": "Cybersecurity Basics",
+            "duration": "6 hours",
+            "level": "Beginner",
+            "description": "Learn how to secure applications and protect against cyber threats.",
+            "videoUrl": "http://www.youtube.com/watch?v=aRbKFCY4tjE",
+            "imageUrl": "https://i.ytimg.com/vi/aRbKFCY4tjE/hqdefault.jpg",
+            "startdate": "2024-07-01",
+            "studentcount": 230,
+            "price": 80
+        },
+        {
+            "id": "27",
+            "name": "GraphQL with Apollo",
+            "duration": "8 hours",
+            "level": "Advanced",
+            "description": "Create and consume GraphQL APIs using Apollo Server and Client.",
+            "videoUrl": "http://www.youtube.com/watch?v=q6MxsS2iPnw",
+            "imageUrl": "https://i.ytimg.com/vi/q6MxsS2iPnw/hqdefault.jpg",
+            "startdate": "2024-08-18",
+            "studentcount": 75,
+            "price": 360
+        },
+        {
+            "id": "28",
+            "name": "Mobile App Design",
+            "duration": "9 hours",
+            "level": "Intermediate",
+            "description": "Design beautiful and user-friendly mobile interfaces with best UX practices.",
+            "videoUrl": "http://www.youtube.com/watch?v=PeGfX7W1mJk",
+            "imageUrl": "https://i.ytimg.com/vi/PeGfX7W1mJk/hqdefault.jpg",
+            "startdate": "2024-09-01",
+            "studentcount": 115,
+            "price": 295
+        },
+        {
+            "id": "29",
+            "name": "DevOps Foundations",
+            "duration": "10 hours",
+            "level": "Intermediate",
+            "description": "Learn DevOps culture, CI/CD pipelines, and automation tools like Jenkins.",
+            "videoUrl": "http://www.youtube.com/watch?v=YMdtaWfU_QE",
+            "imageUrl": "https://i.ytimg.com/vi/YMdtaWfU_QE/hqdefault.jpg",
+            "startdate": "2024-07-01",
+            "studentcount": 105,
+            "price": 405
+        },
+        {
+            "id": "30",
+            "name": "Web Accessibility",
+            "duration": "5 hours",
+            "level": "Beginner",
+            "description": "Make your websites accessible to all users including those with disabilities.",
+            "videoUrl": "http://www.youtube.com/watch?v=e2nkq3h1P68",
+            "imageUrl": "https://i.ytimg.com/vi/e2nkq3h1P68/hqdefault.jpg",
+            "startdate": "2024-08-05",
+            "studentcount": 195,
+            "price": 70
+        },
+        {
+            "id": "31",
+            "name": "Agile Project Management",
+            "duration": "6 hours",
+            "level": "Intermediate",
+            "description": "Understand Agile methodologies and how to manage software projects effectively.",
+            "videoUrl": "http://www.youtube.com/watch?v=ihhNWV9vHX0",
+            "imageUrl": "https://i.ytimg.com/vi/ihhNWV9vHX0/hqdefault.jpg",
+            "startdate": "2024-09-01",
+            "studentcount": 135,
+            "price": 210
+        },
+        {
+            "id": "32",
+            "name": "Clean Code Principles",
+            "duration": "7 hours",
+            "level": "Intermediate",
+            "description": "Learn how to write clean, readable, and maintainable code using proven principles and best practices.",
+            "videoUrl": "http://www.youtube.com/watch?v=kfyo-N-xAwE",
+            "imageUrl": "https://i.ytimg.com/vi/kfyo-N-xAwE/hqdefault.jpg",
+            "startdate": "2024-07-15",
+            "studentcount": 145,
+            "price": 330
+        },
+        {
+            "id": "33",
+            "name": "Flutter Development",
+            "duration": "12 hours",
+            "level": "Intermediate",
+            "description": "Build beautiful cross-platform mobile apps using Flutter and Dart.",
+            "videoUrl": "http://www.youtube.com/watch?v=1xipg02Wu8s",
+            "imageUrl": "https://i.ytimg.com/vi/1xipg02Wu8s/hqdefault.jpg",
+            "startdate": "2024-08-01",
+            "studentcount": 90,
+            "price": 465
+        },
+        {
+            "id": "34",
+            "name": "Cloud Computing Basics",
+            "duration": "6 hours",
+            "level": "Beginner",
+            "description": "Understand cloud service models, deployment models, and popular platforms like AWS and Azure.",
+            "videoUrl": "http://www.youtube.com/watch?v=M988_fsOSWo",
+            "imageUrl": "https://i.ytimg.com/vi/M988_fsOSWo/hqdefault.jpg",
+            "startdate": "2024-09-10",
+            "studentcount": 180,
+            "price": 120
+        },
+        {
+            "id": "35",
+            "name": "Intro to Blockchain",
+            "duration": "8 hours",
+            "level": "Beginner",
+            "description": "Learn the fundamentals of blockchain technology and how decentralized systems work.",
+            "videoUrl": "http://www.youtube.com/watch?v=yubzJw0uiE4",
+            "imageUrl": "https://i.ytimg.com/vi/yubzJw0uiE4/hqdefault.jpg",
+            "startdate": "2024-07-22",
+            "studentcount": 160,
+            "price": 240
+        },
+        {
+            "id": "36",
+            "name": "Data Structures & Algorithms",
+            "duration": "10 hours",
+            "level": "Advanced",
+            "description": "Master core computer science concepts to improve your coding and problem-solving skills.",
+            "videoUrl": "http://www.youtube.com/watch?v=O9v10jQkm5c",
+            "imageUrl": "https://i.ytimg.com/vi/O9v10jQkm5c/hqdefault.jpg",
+            "startdate": "2024-08-01",
+            "studentcount": 100,
+            "price": 395
+        },
+        {
+            "id": "37",
+            "name": "SASS & SCSS in Depth",
+            "duration": "5 hours",
+            "level": "Intermediate",
+            "description": "Enhance your CSS workflow using SASS features like variables, nesting, and mixins.",
+            "videoUrl": "http://www.youtube.com/watch?v=_a5j7KoflTs",
+            "imageUrl": "https://i.ytimg.com/vi/_a5j7KoflTs/hqdefault.jpg",
+            "startdate": "2024-09-05",
+            "studentcount": 130,
+            "price": 155
+        },
+        {
+            "id": "38",
+            "name": "Web Performance Optimization",
+            "duration": "6 hours",
+            "level": "Advanced",
+            "description": "Improve website speed and efficiency through optimization techniques and tools.",
+            "videoUrl": "http://www.youtube.com/watch?v=0fONene3OIA",
+            "imageUrl": "https://i.ytimg.com/vi/0fONene3OIA/hqdefault.jpg",
+            "startdate": "2024-07-01",
+            "studentcount": 70,
+            "price": 480
+        },
+        {
+            "id": "39",
+            "name": "Jest Testing for React",
+            "duration": "7 hours",
+            "level": "Intermediate",
+            "description": "Write unit and integration tests for your React components using Jest and React Testing Library.",
+            "videoUrl": "http://www.youtube.com/watch?v=JBSUgDxICg8",
+            "imageUrl": "https://i.ytimg.com/vi/JBSUgDxICg8/hqdefault.jpg",
+            "startdate": "2024-08-12",
+            "studentcount": 110,
+            "price": 350
+        },
+        {
+            "id": "40",
+            "name": "Introduction to SEO",
+            "duration": "4 hours",
+            "level": "Beginner",
+            "description": "Learn how search engines work and how to improve website visibility through SEO.",
+            "videoUrl": "http://www.youtube.com/watch?v=MYE6T_gd7H0",
+            "imageUrl": "https://i.ytimg.com/vi/MYE6T_gd7H0/hqdefault.jpg",
+            "startdate": "2024-09-01",
+            "studentcount": 200,
+            "price": 60
+        },
+        {
+            "id": "41",
+            "name": "WebSockets & Real-time Apps",
+            "duration": "9 hours",
+            "level": "Advanced",
+            "description": "Build real-time web applications using WebSockets and technologies like Socket.IO.",
+            "videoUrl": "http://www.youtube.com/watch?v=1BfCnjr_Vjg",
+            "imageUrl": "https://i.ytimg.com/vi/1BfCnjr_Vjg/hqdefault.jpg",
+            "startdate": "2024-07-01",
+            "studentcount": 80,
+            "price": 430
+        }
+    ]
 }

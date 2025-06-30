@@ -5,7 +5,7 @@ import GaugeChart from "react-gauge-chart"
 import Calendar from "react-calendar"
 import { useEffect, useState } from "react"
 import "react-calendar/dist/Calendar.css"
-import { getCourse } from "../../../utils/courseService"
+import { getCourse } from "../../../../utils/courseService"
 
 const DashboardPage = () => {
   const [data, setData] = useState([])

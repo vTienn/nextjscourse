@@ -1,9 +1,9 @@
 "use client"
 import { useRouter, useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react"
-import { getCourseByID } from "../../../utils/courseService"
+import { getCourseByID } from "../../../../utils/courseService"
 import { Modal, Form, Input, DatePicker, message } from "antd"
-import "../../styles/viewcourse.scss"
+import "../../../styles/viewcourse.scss"
 
 const ViewCourse = () => {
   const [infoCourse, setInfoCourse] = useState([])
@@ -23,7 +23,7 @@ const ViewCourse = () => {
   }, [id])
 
   const handleClick = () => {
-    router.push("/")
+    router.push("/main/dashboard")
   }
 
   const handleRegister = (values) => {
