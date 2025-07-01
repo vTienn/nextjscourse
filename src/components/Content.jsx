@@ -4,6 +4,8 @@ import { Table, Space, Button, Modal, Form, Input, message, Popconfirm } from 'a
 import { BookOutlined, ReadOutlined, PlusOutlined, CloseOutlined } from '@ant-design/icons'
 import { useState, useEffect, useRef } from 'react'
 import { addCourse, deleteCourse, updateCourse } from '../../utils/courseService'
+import PaymentModal from './Paymentmodal'
+
 import '../styles/content.scss'
 
 const Content = ({ data = [], refreshData }) => {
@@ -14,6 +16,7 @@ const Content = ({ data = [], refreshData }) => {
   const [isEditing, setIsEditing] = useState(false)
   const [editId, setEditId] = useState(null)
   const drawerRef = useRef()
+  const [isPayModalOpen, setIsPayModalOpen] = useState(false)
 
   const handleDeleteCourse = async (id) => {
     try {
@@ -276,7 +279,11 @@ const Content = ({ data = [], refreshData }) => {
               </div>{' '}
               <div className="cart-actions">
                 <Button className="action-view-cart"> Cart </Button>{' '}
-                <Button className="action-pay" type="primary">
+                <Button
+                  onClick={() => setIsPayModalOpen(true)}
+                  className="action-pay"
+                  type="primary"
+                >
                   Pay{' '}
                 </Button>{' '}
               </div>{' '}
@@ -284,6 +291,11 @@ const Content = ({ data = [], refreshData }) => {
           </>
         )}{' '}
       </div>{' '}
+      <PaymentModal
+        visible={isPayModalOpen}
+        onClose={() => setIsPayModalOpen(false)}
+        totalPrice={totalPrice}
+      />
     </div>
   )
 }
