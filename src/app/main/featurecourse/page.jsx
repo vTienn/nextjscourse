@@ -14,6 +14,28 @@ import {
 
 const COURSES_PER_PAGE = 6
 
+// ✅ Hàm chuyển link YouTube sang định dạng embed
+const getEmbeddedYouTubeUrl = (url) => {
+  try {
+    const parsed = new URL(url)
+    const hostname = parsed.hostname
+
+    if (hostname.includes('youtube.com')) {
+      const videoId = parsed.searchParams.get('v')
+      return `https://www.youtube.com/embed/${videoId}`
+    }
+
+    if (hostname.includes('youtu.be')) {
+      const videoId = parsed.pathname.split('/')[1]
+      return `https://www.youtube.com/embed/${videoId}`
+    }
+
+    return ''
+  } catch (e) {
+    return ''
+  }
+}
+
 const FeatureCourse = () => {
   const [featureCourse, setFeatureCourse] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
@@ -39,14 +61,14 @@ const FeatureCourse = () => {
     setSelectedVideo('')
   }
 
-  // Pagination logic
+  // Phân trang
   const indexOfLastCourse = currentPage * COURSES_PER_PAGE
   const indexOfFirstCourse = indexOfLastCourse - COURSES_PER_PAGE
   const currentCourses = featureCourse.slice(indexOfFirstCourse, indexOfLastCourse)
 
   const handlePageChange = (page) => {
     setCurrentPage(page)
-    window.scrollTo({ top: 0, behavior: 'smooth' }) // Cuộn lên đầu khi đổi trang
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   return (
@@ -136,8 +158,8 @@ const FeatureCourse = () => {
           </Row>
         ) : (
           <p> No course available </p>
-        )}{' '}
-        {/* Pagination */}{' '}
+        )}
+        {/* Phân trang */}{' '}
         <div style={{ textAlign: 'center', marginTop: '30px' }}>
           <Pagination
             current={currentPage}
@@ -147,14 +169,14 @@ const FeatureCourse = () => {
             showSizeChanger={false}
           />{' '}
         </div>{' '}
-      </div>{' '}
-      {/* Modal hiển thị video YouTube */}{' '}
+      </div>
+      {/* Modal Video Demo */}{' '}
       <Modal title="Course Demo" open={isModalOpen} onCancel={closeModal} footer={null} width={800}>
         {' '}
         {selectedVideo ? (
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
-              src={selectedVideo.replace('watch?v=', 'embed/')}
+              src={getEmbeddedYouTubeUrl(selectedVideo)}
               title="Course Demo Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
