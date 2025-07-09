@@ -14,7 +14,6 @@ import {
 
 const COURSES_PER_PAGE = 6
 
-// ✅ Hàm chuyển link YouTube sang định dạng embed
 const getEmbeddedYouTubeUrl = (url) => {
   try {
     const parsed = new URL(url)
@@ -61,7 +60,6 @@ const FeatureCourse = () => {
     setSelectedVideo('')
   }
 
-  // Phân trang
   const indexOfLastCourse = currentPage * COURSES_PER_PAGE
   const indexOfFirstCourse = indexOfLastCourse - COURSES_PER_PAGE
   const currentCourses = featureCourse.slice(indexOfFirstCourse, indexOfLastCourse)
@@ -158,7 +156,7 @@ const FeatureCourse = () => {
           </Row>
         ) : (
           <p> No course available </p>
-        )}
+        )}{' '}
         {/* Phân trang */}{' '}
         <div style={{ textAlign: 'center', marginTop: '30px' }}>
           <Pagination
@@ -169,7 +167,7 @@ const FeatureCourse = () => {
             showSizeChanger={false}
           />{' '}
         </div>{' '}
-      </div>
+      </div>{' '}
       {/* Modal Video Demo */}{' '}
       <Modal title="Course Demo" open={isModalOpen} onCancel={closeModal} footer={null} width={800}>
         {' '}

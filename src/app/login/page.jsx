@@ -19,8 +19,6 @@ const Page = () => {
   return (
     <ProConfigProvider hashed={false}>
       <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
-        {' '}
-        {/* Video background */}{' '}
         <video
           autoPlay
           loop
