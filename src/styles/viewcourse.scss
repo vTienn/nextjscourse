@@ -1,81 +1,81 @@
 .course-detail-container {
-    max-width: 800px;
-    margin: 40px auto;
-    background: #fff;
-    padding: 32px;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-    transition: all 0.3s ease-in-out;
-    h1 {
-        font-size: 28px;
-        font-weight: 700;
-        color: #1e1e1e;
-        margin-bottom: 24px;
-        border-left: 4px solid #1890ff;
-        padding-left: 12px;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 24px;
+    border-left: 4px solid #1890ff;
+    padding-left: 12px;
+  }
+  .course-info {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 24px;
+    span {
+      display: block;
+      margin-bottom: 8px;
+      strong {
+        color: #1890ff;
+      }
     }
-    .course-info {
-        font-size: 18px;
-        line-height: 1.7;
-        color: #333;
-        margin-bottom: 24px;
-        span {
-            display: block;
-            margin-bottom: 8px;
-            strong {
-                color: #1890ff;
-            }
-        }
-        .course-image {
-            .image-detail {
-                background-size: contain;
-                height: 200px;
-                width: 200px;
-                background-size: contain;
-                padding-right: 10px;
-                border-radius: 15px;
-            }
-        }
+    .course-image {
+      .image-detail {
+        background-size: contain;
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        padding-right: 10px;
+        border-radius: 15px;
+      }
     }
-    .back-btn,
-    .register-btn {
-        padding: 8px 16px;
-        font-size: 16px;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background 0.3s;
-        font-weight: 600;
+  }
+  .back-btn,
+  .register-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: 600;
+  }
+  .back-btn {
+    background-color: #1890ff;
+    color: #fff;
+    margin-right: 12px;
+    &:hover {
+      background-color: #40a9ff;
     }
-    .back-btn {
-        background-color: #1890ff;
-        color: #fff;
-        margin-right: 12px;
-        &:hover {
-            background-color: #40a9ff;
-        }
+  }
+  .register-btn {
+    background-color: #52c41a;
+    color: #fff;
+    &:hover {
+      background-color: #73d13d;
     }
-    .register-btn {
-        background-color: #52c41a;
-        color: #fff;
-        &:hover {
-            background-color: #73d13d;
-        }
-    }
+  }
 }
 
 .submit-btn {
-    width: 100%;
-    padding: 10px;
-    background-color: #1890ff;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 12px;
-    transition: background 0.3s;
-    &:hover {
-        background-color: #40a9ff;
-    }
+  width: 100%;
+  padding: 10px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.3s;
+  &:hover {
+    background-color: #40a9ff;
+  }
 }

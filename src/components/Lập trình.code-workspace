@@ -1,19 +1,19 @@
 {
-    "folders": [
-		{
-			"path": "../../../../Lập trình"
-		},
-		{
-			"path": "../../../../../Downloads/webpackthuan"
-		},
-		{
-			"path": "../../../../../Downloads/Reacjs"
-		},
-		{
-			"path": "../../.."
-		}
-	],
-    "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "Lập trình"
-    }
+  "folders": [
+    {
+      "path": "../../../../Lập trình",
+    },
+    {
+      "path": "../../../../../Downloads/webpackthuan",
+    },
+    {
+      "path": "../../../../../Downloads/Reacjs",
+    },
+    {
+      "path": "../../..",
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Lập trình",
+  },
 }

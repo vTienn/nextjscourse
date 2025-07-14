@@ -1,7 +1,7 @@
-"use client"
-import Content from "../../../components/Content"
-import { useEffect, useState } from "react"
-import { getCourse } from "../../../../utils/courseService"
+'use client'
+import Content from '../../../components/Content'
+import { useEffect, useState } from 'react'
+import { getCourse } from '../../../../utils/courseService'
 
 export default function Dashboard() {
   const [courses, setCourses] = useState([])
@@ -12,7 +12,7 @@ export default function Dashboard() {
       const sorted = data.sort((a, b) => b.id - a.id)
       setCourses(sorted)
     } catch (error) {
-      console.error("Fetch failed", error)
+      console.error('Fetch failed', error)
     }
   }
 

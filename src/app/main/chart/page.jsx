@@ -103,7 +103,12 @@ const DashboardPage = () => {
         </div>{' '}
         <div>
           <h3> Active Rate </h3>{' '}
-          <GaugeChart id="gauge-chart1" nrOfLevels={20} percent={0.7} style={{ width: '100%' }} />{' '}
+          <GaugeChart
+            id="gauge-chart1"
+            nrOfLevels={20}
+            percent={0.7}
+            style={{ width: '100%' }}
+          />{' '}
         </div>{' '}
         <div>
           <h3> Calendar </h3> <Calendar />
